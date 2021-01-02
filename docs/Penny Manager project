@@ -1,0 +1,29 @@
+Penny Manager
+
+
+DESPESAS
+	-Descrição
+	-data
+	-valor
+	-formaDePagamento
+	-parcelas
+
+RECEITA
+	-descrição
+	-data
+	-valor
+	-TipoDeReceita
+
+FORMA_DE_PAGAMENTO(enum)
+	-PARCELADO
+	-A_VISTA
+
+TIPO_DE_RECEITA(enum)
+	-EXTRA
+	-FIXO
+
+CARTAO
+	-descrição
+	-badeira
+	-credito
+
