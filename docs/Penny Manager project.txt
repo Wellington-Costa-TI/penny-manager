@@ -10,7 +10,7 @@ Telas
 	-visao_anual
 	-visao_semanal
 
-casos de uso
+Casos de Uso
 	-CRUD receita
 	-CRUD despesa
 	-CRUD cartao
