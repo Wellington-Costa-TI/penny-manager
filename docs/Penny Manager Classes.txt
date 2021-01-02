@@ -1,5 +1,12 @@
 Penny Manager
 
+	Classes e Atributos
+
+USUARIO
+	-nome
+	-sobrenome
+	-senha
+	-email
 
 DESPESAS
 	-Descrição
@@ -26,4 +33,5 @@ CARTAO
 	-descrição
 	-badeira
 	-credito
+	-ativo
 

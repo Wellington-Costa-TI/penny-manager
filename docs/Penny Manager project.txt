@@ -1,0 +1,20 @@
+Penny Manager
+
+Telas
+	-login
+	-add_despesa
+	-add_receita
+	-add_cartao
+	-visao_geral
+	-visao_mensal
+	-visao_anual
+	-visao_semanal
+
+Casos de uso
+	-CRUD receita
+	-CRUD despesa
+	-CRUD cartao
+	-Visualizar Gráfico mensal
+	-Visualizar Gráfico anual
+	-Visualizar Gráfico geral
+	-Visualizar Gráfico entre datas
