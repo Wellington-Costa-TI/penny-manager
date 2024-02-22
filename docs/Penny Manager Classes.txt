@@ -8,30 +8,24 @@ USUARIO
 	-senha
 	-email
 
-DESPESAS
-	-Descrição
-	-data
-	-valor
-	-formaDePagamento
-	-parcelas
+DESPESA
+- Descrição
+- Categoria
+- Status
+- Data
+- Forma de Pagamento
 
 RECEITA
-	-descrição
-	-data
-	-valor
-	-TipoDeReceita
-
-FORMA_DE_PAGAMENTO(enum)
-	-PARCELADO
-	-A_VISTA
-
-TIPO_DE_RECEITA(enum)
-	-EXTRA
-	-FIXO
+- Descrição
+- Status
+- Data
+- Destino
 
 CARTAO
-	-descrição
-	-badeira
-	-credito
-	-ativo
+- Limite
+- Descrição
+- Vencimeto
 
+FONTE_RENDA
+- Descrição
+- Saldo
