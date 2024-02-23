@@ -3,29 +3,30 @@ Penny Manager
 	Classes e Atributos
 
 USUARIO
-	-nome
-	-sobrenome
-	-senha
-	-email
+-nome
+-sobrenome
+-senha
+-email
 
-DESPESA
+DESPESAS
 - Descrição
-- Categoria
-- Status
+- valor
 - Data
-- Forma de Pagamento
+- parcelas
+- CARTAO
+- CONTA
 
 RECEITA
 - Descrição
-- Status
+- valor
 - Data
-- Destino
+- CONTA
 
 CARTAO
 - Limite
 - Descrição
-- Vencimeto
+- Faturamento
 
-FONTE_RENDA
+RENDA
 - Descrição
 - Saldo
