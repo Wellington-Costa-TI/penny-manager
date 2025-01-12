@@ -35,8 +35,8 @@ VALUES
     (nextval('"penny-manager"."sequence_receita_id"'), 'Salário', '2023-12-15', 5249.79, 1);
 
 
--- Inserção de dados na tabela 'despesa'
-INSERT INTO "penny-manager"."despesa" (id_despesa, descricao, categoria, dt_faturamento, vl_despesa, parcela, id_conta, id_cartao)
+-- Inserção de dados na tabela 'despesa' 2023
+INSERT INTO "penny-manager"."despesa" (id_despesa, categoria, descricao, dt_faturamento, vl_despesa, parcela, id_conta, id_cartao)
 VALUES 
     (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2023-01-15', 883.40, 1, NULL, 1),
     (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2023-02-15', 1222.48, 1, NULL, 1),
@@ -58,5 +58,21 @@ VALUES
     (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2023-10-15', 1476.44, 1, NULL, 1),
     (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2023-11-15', 1547.63, 1, NULL, 1),
     (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2023-12-15', 1177.74, 1, NULL, 1);
+
+-- Inserção de dados na tabela 'despesa' 2024
+INSERT INTO "penny-manager"."despesa" (id_despesa, categoria, descricao, dt_faturamento, vl_despesa, parcela, id_conta, id_cartao)
+VALUES 
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-01-15', 1645.11, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-02-15', 1373.57, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-03-15', 1704.61, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-04-15', 1959.62, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-05-15', 474.07, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-06-15', 797.45, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-07-15', 650.73, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-08-15', 520.68, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-09-15', 735.68, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-10-15', 466.04, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-11-15', 885.04, 1, NULL, 1),
+    (nextval('"penny-manager"."sequence_despesa_id"'),'GERAL', 'Total cartão', '2024-12-15', 795,04, 1, NULL, 1);
 
    
